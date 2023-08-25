@@ -1,0 +1,30 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+.sidebar {
+  border: 5px inset;
+  border-left: 0;
+  /* background-color: aquamarine; */
+  border-color: 1px solid #dadada;
+  border-radius: 0 10px 10px 0;
+  margin: 1rem;
+  padding: 2rem 0;
+  width: 10rem;
+  height: 80vh;
+}
+
+#sb-heading {
+  color: rgb(212, 73, 119);
+  padding: 0 0.5rem;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.sb-item {
+  padding: 0.5rem;
+  margin: 4px 0;
+}
+.sb-item:hover {
+  font-weight: 600;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
